@@ -9,7 +9,7 @@
         
         <title>The Little Taco Shop</title>
         <link rel="icon" href="taco.ico" type="image/x-icon">
-        <link rel="stylesheet" href="main.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css">
 
     </head>
 
@@ -28,7 +28,7 @@
                         <a href="hours.html">Store Hours</a>
                     </li>
                     <li>
-                        <a href="cantact.html">Contact Us</a>
+                        <a href="contact.html">Contact Us</a>
                     </li>
                 </ul>
             </nav>
@@ -41,7 +41,79 @@
         </header>
         <hr>
         <main>
-            <!--Our Content Goes Here-->
+            <article id="about">
+                <h2>About <abbr title="The Little Taco Shop">LTS</abbr></h2>
+                <p>
+                    <abbr title="The Little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time>.Our Shop was built from a<strong> love of tacos</strong> 🌮🌮🌮. We hope our shop adds a unique and interesting place to our little town. 
+                </p>
+                <aside>
+                    <h3>Taco Trivia</h3>
+                    <details>
+                        <summary>When did tacos first appear in the United State?</summary>
+                        <p>
+                            1905 . Coming to America .The Taco was first introduced to the United States in 1905. Mexican migrants were coming in to work on railroads and other jobs and started to bring their delicious food with them. Tacos were essentially a street food at this time since they were highly portable and cheap.(Source :<cite><a href="https://www.twistedtaco.com/the-history-of-the-taco">Twisted Taco</a></cite>)
+                        </p>
+                    </details>
+                </aside>
+            </article>
+            <hr>    
+            <article id="menu">
+                <h2>Our Menu</h2>
+                <table>
+                <caption>Our Tacos</caption>
+                <thead>
+                    <tr> <!--this one is read table row-->
+                        <th>Tacos</th> <!--This is our colloms-->
+                        <th scop="col"><abbr title="Quantity">Qty</abbr></th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="3">
+                            Crunchy
+                        </th>
+                        <td>1</td>
+                        <td>$1.50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$2.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$3.50</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="3">
+                            Soft
+                        </th>
+                        <td>1</td>
+                        <td>$2.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$3.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$4.50</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">
+                            Chips &amp; Salsa $2
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+            <p>
+                <a href="#">Back To Top</a>
+            </p>
+            </article>
+
         </main>
 
         <footer>
