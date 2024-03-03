@@ -42,7 +42,39 @@
         </header>
         <hr>
         <main>
-            <!--Our Content Goes Here-->
+            <section>
+             <h2>Our Contact Form</h2>
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Send Us A Message</legend>
+                        <p>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" placeholder="your name required">
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="your email required">
+                        </p>
+                        <p>
+                            <label for="Message">Your Message:</label>
+                            <br>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type Your Message here"></textarea>
+                        </p>
+                    </fieldset>
+                    <button type="submit">Send</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </section>
+            <section>
+                <h2>Our Location</h2>
+                <address>
+                    555 Taco Temptation Lane, Suite T  
+                    <br>
+                    Kansas city, MO 55555-5555
+                    <br><br>
+                    phone: <a href="tel:+5555555555">555-555-5555</a>
+                </address>
+            </section>
         </main>
 
         <footer>
